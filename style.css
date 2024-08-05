@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img{
+    width: 500px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px ;
+}
+
+p{
+    max-width: 500px;
+    padding: 10px;
+}
+
+.change{
+    background-color: steelblue;
+    padding: 18px 36px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.change:active{
+    transform: scale(0.98);
+    
+}
+
+h1{
+    text-align: center;
+}
+
+@media(max-width:480px){
+    img{
+        width: 98%;
+    }
+    body{
+        background-color: rgb(212, 201, 172);
+    }
+}
+
